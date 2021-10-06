@@ -1,6 +1,12 @@
+*{
+    font-family: Montserrat;
+}
 body{
-
     background-color: #6d6a6a
+}
+
+div.main{
+    display: relative;
 }
 
 .container{
@@ -14,21 +20,53 @@ body{
 }
 
 #left{
-    padding: 0;
-    margin-top: 107px;
-    width: 40%;
-    height: 70%;
-    margin-left: 280px;
+    position: relative;
+    margin-top: 9%;
+    width: 37.25%;
+    height: 60%;
+    margin-left: 14%;
     background-color: #E3004F;
 }
 
 #right{
-    top: 50%;
-    left: 50%;
-    margin-top: 93px;
-    width: 50%;
-    height: 78%;
-    margin-right: 279px;
+    margin-top: 8%;
+    width: 42%;
+    height: 65%;
+    margin-right: 15%;
+    margin-bottom: 20%;
     background-color: #ffffff;
     box-shadow: inset -10px 0 #E3004F 25 ;
+}
+
+#left h3, p{
+    color: #ffffff;
+}
+
+h3{
+    letter-spacing: 4px;
+    font-size: 1.76vw;
+    margin-left: 36%;
+}
+
+.container p{
+    font-size: 1vw;
+    margin-left: 36%;
+}
+
+div.main .vct{
+    position: absolute;
+    bottom: 0;
+    right: 115px;
+}
+
+div.main .vct1{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+div.main .vct2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
