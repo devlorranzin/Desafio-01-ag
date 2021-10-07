@@ -26,6 +26,7 @@ div.main{
     height: 60%;
     margin-left: 14%;
     background-color: #E3004F;
+
 }
 
 #right{
@@ -35,7 +36,6 @@ div.main{
     margin-right: 15%;
     margin-bottom: 20%;
     background-color: #ffffff;
-    box-shadow: inset -10px 0 #E3004F 25 ;
 }
 
 #left h3, p{
@@ -50,7 +50,7 @@ h3{
 
 .container p{
     font-size: 1vw;
-    margin-left: 36%;
+    margin-left: 38%;
 }
 
 div.main .vct{
@@ -69,4 +69,172 @@ div.main .vct2{
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+div#right .topo{
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+div#right .list-w{
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+div#right .list-p{
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+div#right .list-d{
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+div#right .list-t{
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+div#right .list-menu-one{
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+div#right .list-menu-two{
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+div#right p{
+    color: #55617D;
+}
+
+.topo{
+    display: block;
+    padding: 50px;
+    align-items: center;
+}
+
+.topo img{
+    width: 50px;
+    margin-left: 15%;
+}
+
+.topo p{
+    margin-right: 15%;
+}
+
+.list-w{
+    display: block;
+    padding: 0;
+    align-items: center;
+}
+
+.list-p{
+    display: block;
+    padding: 0;
+    align-items: center;
+}
+
+.list-d{
+    display: block;
+    padding: 0;
+    align-items: center;
+}
+
+.list-t{
+    display: block;
+    padding: 0;
+    align-items: center;
+}
+
+.list-menu-one{
+    display: block;
+    padding: 0;
+    align-items: center;
+}
+
+.list-menu-two{
+    display: block;
+    padding: 0;
+    align-items: center;
+}
+
+.list-w p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.list-p p{
+    margin-left: 20%;
+    margin-right: 19%;
+}
+
+.list-d p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.list-t p{
+    margin-left: 20%;
+    margin-right: 16%;
+}
+
+.list-menu-one p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.list-menu-two p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+p#total{
+    font-size: 25px;
+}
+
+
+@media (max-width: 780px) {
+     div.main .vct img{
+        width: 85px;
+        margin-right: -49px;
+    }
+
+    div.main .vct1 img{
+        width: 60px;
+        margin-right: -6px;
+    }
+
+    div.main .vct2 img{
+        width: 40px;
+    }
+
+    .topo img{
+        width: 50px;
+        margin-left: 5%;
+    }
+
 }
