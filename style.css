@@ -237,4 +237,27 @@ p#total{
         margin-left: 5%;
     }
 
+    @media (max-width: 453px) {
+        div.main .vct img{
+           width: 43px;
+           display: block;
+           margin-left: 350px;
+       }
+   
+       div.main .vct1 img{
+           width: 35px;
+           margin-right: -4px;
+           display: block;
+       }
+   
+       div.main .vct2 img{
+           width: 25px;
+           display: block;
+       }
+   
+       .topo img{
+           width: 50px;
+           margin-left: 5%;
+       }
+
 }
